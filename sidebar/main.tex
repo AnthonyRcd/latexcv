@@ -68,7 +68,7 @@
 % more font size definitions
 \usepackage{moresize}		
 
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT  DEFINITIONS
@@ -329,7 +329,7 @@
 %}}
 
 % use this for single words, e.g. CV or RESUME etc.
-\colorbox{bgcol}{\makebox[\mpwidth][c]{\HUGE{\textcolor{white}{\uppercase{Jan Küster}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\uppercase{Resume}} } }}
+\colorbox{bgcol}{\makebox[\mpwidth][c]{\HUGE{\textcolor{white}{\uppercase{RICARD Anthony}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\uppercase{Resume}} } }}
 
 %----------------------------------------------------------------------------------------
 %	HEADER IMAGE
@@ -337,8 +337,8 @@
 
 
 %\hspace{-1.6cm}
-%\includegraphics[trim= 0 250 0 270,clip,width=1\linewidth+3.1cm]{myfoto.jpg}	%trimming relative to image size!
-\includegraphics[trim= 350 150 0 200, clip ,width=\linewidth]{myfoto.jpg}	%trimming relative to image size
+%\includegraphics[trim= 0 250 0 270,clip,width=1\linewidth+3.1cm]{myfoto.png}	%trimming relative to image size!
+%\includegraphics[trim= 350 150 0 200, clip ,width=\linewidth]{myfoto.png}	%trimming relative to image size
 
 %---------------------------------------------------------------------------------------
 %	SUMMARY
@@ -365,9 +365,11 @@
 %---------------------------------------------------------------------------------------
 %	STATUS
 %----------------------------------------------------------------------------------------
-\cvsection{Status}
+\cvsection{Presentation}
 
-JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and healthcare
+DevOps Engineer with a strong background in software and WEB development \\
+
+Fast learner, improvement-driven swiss-army knife with a greed for knowledge
 
 \vspace{12pt}
 
@@ -376,53 +378,73 @@ JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and hea
 %----------------------------------------------------------------------------------------
 \cvsection{Experience}
 
-%
-\cvevent{2016/09 - now}{Fullstack Javascript Engineer}{University of Bremen}{Invent a realtime classroom management using Meteor and React, Design software architecture and leading development}
+
+\cvevent{2023 - now}{Fullstack Software / DevOps Engineer}{Thales Services}{
+WEB application compiling DNA sequencing and antibiotics tests results,
+Implementation of OIDC authentication,
+Setup of robust CI/CD pipelines with Gitlab CI,
+Writing of robust bash scripts for heavy data transfer from legacy to brand new project,
+Embodied the role of "Technical Leader" in a 6-member team,
+"Good practice" advocate (git how-tos{,} clean code{,} Docker image optimization etc. ),
+Member of the SRE team
+}
+
+\cvevent{2022 - 2023}{Fullstack Software / DevOps Engineer}{Thales Services}{
+WEB portal to help biologists perform heavy computation on DNA sequences,
+Dockerization of multi-language sub-projects (Perl{,} Python{,} Java{,} Ruby etc.),
+Migration of applications from Apache Mesos to an \textit{on premise} Kubernetes cluster,
+Implementation of OIDC authentication,
+Setup of robust CI/CD pipelines with Gitlab CI,
+Maintenance of legacy application written in PHP + Mediawiki
+}
+
+\cvevent{2019/11 - 2022}{Fullstack Software / DevOps Engineer}{Thales Services}{
+WEB applications compiling results of nuclear power plants maintenance studies,
+Creation of a file ingestion system with heavy verification of business rules,
+Creation of REST APIs for interoperability between tools,
+Securisation of endpoints with OIDC protocol via Spring Security,
+Maintenance and improvement of Jenkins pipelines
+}
+
+
+\cvevent{2018/08 - 2019/10}{Fullstack Software Engineer}{IgnifAI (fka Cognik)}{
+WEB application for content transfer between a Data Asset Manager and a DB,
+Development of a "Backoffice" API,
+Development of tests (jUnit{,} RestAssured) and Jenkins pipelines,
+Introduction to "FinOps" : development of cost optimization scripts for AWS services,
+Use of AWS Lambda for on-demand "serverless" script execution,
+Infrastructure monitoring (Grafana{,} Cloudfront etc.)
+}
 
 %\textcolor{softcol}{\hrule}
-
-
-%\cvevent{2014 - 2016}{IT Consultant for IBM XPages and Notes Domino}{We4IT GmbH Bremen}{Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports}{Integrated Camunda BPMN engine and BPMN.IO modeler in We4IT Aveedo}
-
-
-%\textcolor{softcol}{\hrule}
-
-
-\cvevent{2012 - 2014}{Scientific Employee / Software Development}{University of Bremen}{Invented a flexible assessment framework{,} targeting industrial trainees, Supervised software development lifecycle, Recruited team members}
-
-%\textcolor{softcol}{\hrule}
-
-%
-\cvevent{2011 / 11}{Project Management Simulation Training}{Getoq Consulting}{Performed a two-day project simulation from management perspective, Topics included customer contracts{,} change management{,} controlling{,} operational tasks}
-
-%\textcolor{softcol}{\hrule}
-
-
-%
-\cvevent{2010 - 2011}{Student Assistant / Programmer}{otulea.uni-bremen.de}{Realized an online diagnosis platform for workforce literacy development (Flex), Modeled software design{,} implemented various prototypes{,} conducted usability tests}
-
 \vspace{12pt}
 %---------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %--------------------------------------------------------------------------------------
 \cvsection{Education}
 
-\cvevent{2015 / 07}{Graduated as M.Sc. Digital Media}{University of Bremen}{Master Thesis: Semi Automated Scoring in Technology Based Assessment, Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
+\cvevent{2018/01 - 2018/08}{End of Studies Training Program}{Dassault Systèmes}{Participated in the development of several WEB applications for internal use}
+
+\cvevent{2018}{Engineer's Degree}{Télécom Saint-Étienne}{Graduated from a French Engineering School in the Computer Science field}
+
+\cvevent{2017/08 - 2017/12}{Erasmus Program}{NTNU Gjøvik}{Took classes in Computer science and WEB development}
+
+\cvevent{2015 - 2017}{Engineering School}{Télécom Saint-Étienne}{Took classes in Computer science{,} Software development and Networking}
 
 % \textcolor{softcol}{\hrule}
 
 %
-\cvevent{2012 - 2013}{Master Project - PrIMA}{University of Bremen}{Co-Invented a touch table application for medical support{,} co-developed software (Java), Formed a scrum team{,} mainted project dev server (Debian){,} surveyed target audience}
+%\cvevent{2012 - 2013}{Master Project - PrIMA}{University of Bremen}{Co-Invented a touch table application for medical support{,} co-developed software (Java), Formed a scrum team{,} mainted project dev server (Debian){,} surveyed target audience}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2012 - 2015}{Master Studies Digital Media}{University of Bremen}{Inter-cultural classes in English{,} covering special topics in computer science and design, Professionalized in research methods{,} software development and e-assessment}
+%\cvevent{2012 - 2015}{Master Studies Digital Media}{University of Bremen}{Inter-cultural classes in English{,} covering special topics in computer science and design, Professionalized in research methods{,} software development and e-assessment}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne{,} Australia, Finished machine programming{,} information visualization{,} professional essay writing}
+%\cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne{,} Australia, Finished machine programming{,} information visualization{,} professional essay writing}
 
 
 \end{minipage}}%
@@ -431,12 +453,12 @@ JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and hea
 
 \begin{metasection}{Contact}
 
-    \icontext{MapMarker}{12}{Bremen, Germany}{white}\\[6pt]
-    \icontext{MobilePhone}{12}{+49 176 313 *** **}{white}\\[6pt]
-    \iconemail{Send}{12}{info@jankuester.com}{info@jankuester.com}{white}\\[6pt]
-    \iconhref{MousePointer}{12}{http://jankuester.com/}{www.jankuester.com}{white}\\[6pt]
-    \iconhref{Github}{12}{https://github.com/jankapunkt}{https://github.com/jankapunkt}{white}\\[6pt]
-    \iconhref{Twitter}{12}{@Kuester\_Jan}{https://twitter.com/kuester_jan?lang=en}{white}\\[6pt]
+    \icontext{MapMarker}{12}{Lyon, France}{white}\\[6pt]
+    \icontext{Mobile}{12}{+33 783 95 45 30}{white}\\[6pt]
+    \iconemail{MailBulk}{12}{anthony.ricard@protonmail.com}{anthony.ricard@protonmail.com}{white}\\[6pt]
+    %\iconhref{MousePointer}{12}{http://jankuester.com/}{www.jankuester.com}{white}\\[6pt]
+    %\iconhref{Github}{12}{https://github.com/jankapunkt}{https://github.com/jankapunkt}{white}\\[6pt]
+    %\iconhref{Twitter}{12}{@Kuester\_Jan}{https://twitter.com/kuester_jan?lang=en}{white}\\[6pt]
 
 \end{metasection}
 
@@ -449,11 +471,8 @@ JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and hea
 \icontext{Code}{12}{Software Development}{white}\\
 \icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\\[6pt]
 
-\icontext{CommentsO}{12}{Consulting}{white}\\
-\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{white}\icon{Star}{12}{white}\\[6pt]
-
 \icontext{CodeFork}{12}{Project Management}{white}\\
-\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{white}\icon{Star}{12}{white}\icon{Star}{12}{white}\icon{Star}{12}{white}\\[6pt]
+\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{white}\icon{Star}{12}{white}\\[6pt]
 
 
 \end{metasection}
@@ -462,30 +481,33 @@ JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and hea
 \begin{metasection}{Technologies}
 
 \textcolor{white}{
-	\icontext{Code}{12}{JavaScript}{white} \\[6pt]
-	\icontext{Code}{12}{Meteor}{white} \\[6pt]
-	\icontext{Fire}{12}{Blaze}{white} \\[6pt]
-	\icontext{Database}{12}{MongoDB}{white} \\[6pt]
-	\icontext{CodeFork}{12}{Git}{white} \\[6pt]
+	\icontext{Docker}{12}{Docker}{white} \icontext{Empire}{12}{Kubernetes}{white} \\[6pt]
+	\icontext{Aws}{12}{Amazon Web Services}{white} \\[6pt]
+	\icontext{Python}{12}{Python}{white} \\[6pt]
+	\icontext{Java}{12}{Java}{white} \\[6pt]
+	\icontext{Angular}{12}{Angular}{white} \icontext{Node}{12}{NodeJS}{white} \\[6pt]
+	\icontext{Database}{12}{MongoDB / MySQL / PostgreSQL}{white} \\[6pt]
 }
 \end{metasection}
 
 \begin{metasection}{Tools}
 
 \textcolor{white}{
-	\icontext{Code}{12}{Webstorm}{white} \icontext{CodeFork}{12}{SourceTree}{white}\\[6pt]
-	\icontext{Terminal}{12}{Terminal}{white}  \icontext{PaintBrush}{12}{Inkscape}{white}\icontext{Cube}{12}{Blender}{white}
+	\icontext{Terminal}{12}{Terminal}{white}\\[6pt] 
+	\icontext{GitSquare}{12}{Git}{white}\\[6pt]
+	\icontext{Gitlab}{12}{Gitlab}{white} \icontext{Jenkins}{12}{Jenkins}{white} \\[6pt] 
+    \icontext{Jira}{12}{Jira}{white} \\[6pt]
 }
 \end{metasection}
 
 \begin{metasection}{Activities}
 
-\textcolor{white}{\LARGE{\icon{Gamepad}{24}{white} \icon{Headphones}{24}{white}  \icon{Bicycle}{24}{white}}}
+\textcolor{white}{\LARGE{\icon{Steam}{24}{white} \icon{Soundcloud}{24}{white} \icon{Github}{24}{white}  \icon{StackOverflow}{24}{white} \icon{Bicycle}{24}{white}}}
 \end{metasection}
 
 \begin{metasection}{Operating Systems}
 
-\textcolor{white}{\LARGE{\icon{Linux}{24}{white} \icon{Apple}{24}{white}  \icon{Windows}{24}{white}}}
+\textcolor{white}{\LARGE{\icon{Linux}{24}{white}  \icon{Windows}{24}{white}}}
 
 \end{metasection}
 
@@ -493,10 +515,10 @@ JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and hea
 %	QR CODE (optional)
 %----------------------------------------------------------------------------------------
 
-\vspace{12pt}
-\begin{center}
-\includegraphics[width=0.35\mpwidth]{qrcode}
-\end{center}
+%\vspace{12pt}
+%\begin{center}
+%\includegraphics[width=0.35\mpwidth]{qrcode}
+%\end{center}
 
 \end{minipage}}
 
@@ -504,9 +526,9 @@ JavaScript fullstack engineer, M.Sc. Digital Media, focuses on education and hea
 %	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
 %--------------------------------------------------------------------------------------------------
 
-\null
-\vspace*{\fill}
-\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\mystrut \small \textcolor{white}{Coypright 2018 jkuester@uni-bremen.de} $\cdot$ \textcolor{white}{licensed under MIT license}}}\\[-6pt]
+%\null
+%\vspace*{\fill}
+%\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\mystrut \small \textcolor{white}{Coypright 2018 jkuester@uni-bremen.de} $\cdot$ \textcolor{white}{licensed under MIT license}}}\\[-6pt]
 
 %============================================================================%
 %
