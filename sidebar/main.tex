@@ -343,18 +343,18 @@
 %---------------------------------------------------------------------------------------
 %	SUMMARY
 %----------------------------------------------------------------------------------------
-\transparent{0.85}%
-\vspace{-130pt}
-\hspace{0.4\linewidth}
-\colorbox{bgcol}{
-	\parbox{0.5\linewidth}{
-		\transparent{1}%
-		\begin{center}
-		\larrow{sectcol}\larrow{sectcol}\textcolor{white}{I create awesome resume templates in LaTeX for everyone. Besides that I am working at the University of Bremen and engineer fullstack JS applications with Meteor.}
-		\end{center}
-	}
-}
-\vspace{60pt}
+%\transparent{0.85}%
+%\vspace{-130pt}
+%\hspace{0.4\linewidth}
+%\colorbox{bgcol}{
+%	\parbox{0.5\linewidth}{
+%		\transparent{1}%
+%		\begin{center}
+%		\larrow{sectcol}\larrow{sectcol}\textcolor{white}{I create awesome resume templates in LaTeX for everyone. Besides that I am working at the University of Bremen and engineer fullstack JS applications with Meteor.}
+%		\end{center}
+%	}
+%}
+%\vspace{60pt}
 
 %============================================================================%
 %
@@ -378,36 +378,22 @@ Fast learner, improvement-driven swiss-army knife with a greed for knowledge
 %----------------------------------------------------------------------------------------
 \cvsection{Experience}
 
-
-\cvevent{2023 - now}{Fullstack Software / DevOps Engineer}{Thales Services}{
-WEB application compiling DNA sequencing and antibiotics tests results,
-Implementation of OIDC authentication,
-Setup of robust CI/CD pipelines with Gitlab CI,
-Writing of robust bash scripts for heavy data transfer from legacy to brand new project,
+\cvevent{2019 - now}{Fullstack Software / DevOps Engineer}{Thales Services}{
+Development of several WEB application aimed at biologists for DNA analysis,
+Development of WEB applications aimed at nuclear power plants safety engineers,
+Improvement of applications security via OIDC authentication backed by Azure AD,
+Improvement of process automation via CI/CD pipelines (build / integrate / deploy),
+Development of robust bash scripts for heavy data transfer from legacy to new project,
+Creation of REST APIs for interoperability between tools,
 Embodied the role of "Technical Leader" in a 6-member team,
 "Good practice" advocate (git how-tos{,} clean code{,} Docker image optimization etc. ),
-Member of the SRE team
-}
-
-\cvevent{2022 - 2023}{Fullstack Software / DevOps Engineer}{Thales Services}{
-WEB portal to help biologists perform heavy computation on DNA sequences,
-Dockerization of multi-language sub-projects (Perl{,} Python{,} Java{,} Ruby etc.),
+Active member of an SRE team,
 Migration of applications from Apache Mesos to an \textit{on premise} Kubernetes cluster,
-Implementation of OIDC authentication,
-Setup of robust CI/CD pipelines with Gitlab CI,
+Creation of a file ingestion system with heavy verification of business rules,
 Maintenance of legacy application written in PHP + Mediawiki
 }
 
-\cvevent{2019/11 - 2022}{Fullstack Software / DevOps Engineer}{Thales Services}{
-WEB applications compiling results of nuclear power plants maintenance studies,
-Creation of a file ingestion system with heavy verification of business rules,
-Creation of REST APIs for interoperability between tools,
-Securisation of endpoints with OIDC protocol via Spring Security,
-Maintenance and improvement of Jenkins pipelines
-}
-
-
-\cvevent{2018/08 - 2019/10}{Fullstack Software Engineer}{IgnifAI (fka Cognik)}{
+\cvevent{2018/08 - 2019}{Fullstack Software Engineer}{IgnifAI (fka Cognik)}{
 WEB application for content transfer between a Data Asset Manager and a DB,
 Development of a "Backoffice" API,
 Development of tests (jUnit{,} RestAssured) and Jenkins pipelines,
@@ -423,7 +409,7 @@ Infrastructure monitoring (Grafana{,} Cloudfront etc.)
 %--------------------------------------------------------------------------------------
 \cvsection{Education}
 
-\cvevent{2018/01 - 2018/08}{End of Studies Training Program}{Dassault Systèmes}{Participated in the development of several WEB applications for internal use}
+\cvevent{2018/01 - 2018/08}{End of Studies Internship}{Dassault Systèmes}{Participated in the development of several WEB applications for internal use}
 
 \cvevent{2018}{Engineer's Degree}{Télécom Saint-Étienne}{Graduated from a French Engineering School in the Computer Science field}
 
@@ -471,6 +457,9 @@ Infrastructure monitoring (Grafana{,} Cloudfront etc.)
 \icontext{Code}{12}{Software Development}{white}\\
 \icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\\[6pt]
 
+\icontext{Code}{12}{Process Automation}{white}\\
+\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\\[6pt]
+
 \icontext{CodeFork}{12}{Project Management}{white}\\
 \icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{complcol}\icon{Star}{12}{white}\icon{Star}{12}{white}\\[6pt]
 
@@ -482,11 +471,10 @@ Infrastructure monitoring (Grafana{,} Cloudfront etc.)
 
 \textcolor{white}{
 	\icontext{Docker}{12}{Docker}{white} \icontext{Empire}{12}{Kubernetes}{white} \\[6pt]
-	\icontext{Aws}{12}{Amazon Web Services}{white} \\[6pt]
-	\icontext{Python}{12}{Python}{white} \\[6pt]
-	\icontext{Java}{12}{Java}{white} \\[6pt]
+	\icontext{Java}{12}{Java}{white} \icontext{Python}{12}{Python}{white} \\[6pt]
 	\icontext{Angular}{12}{Angular}{white} \icontext{Node}{12}{NodeJS}{white} \\[6pt]
 	\icontext{Database}{12}{MongoDB / MySQL / PostgreSQL}{white} \\[6pt]
+	\icontext{Aws}{12}{Amazon Web Services}{white} \\[6pt]
 }
 \end{metasection}
 
@@ -500,14 +488,15 @@ Infrastructure monitoring (Grafana{,} Cloudfront etc.)
 }
 \end{metasection}
 
-\begin{metasection}{Activities}
-
-\textcolor{white}{\LARGE{\icon{Steam}{24}{white} \icon{Soundcloud}{24}{white} \icon{Github}{24}{white}  \icon{StackOverflow}{24}{white} \icon{Bicycle}{24}{white}}}
-\end{metasection}
-
 \begin{metasection}{Operating Systems}
 
 \textcolor{white}{\LARGE{\icon{Linux}{24}{white}  \icon{Windows}{24}{white}}}
+
+
+\begin{metasection}{Activities}
+
+\textcolor{white}{\LARGE{\icon{Steam}{24}{white} \icon{Soundcloud}{24}{white} \icon{Github}{24}{white}  \icon{Bicycle}{24}{white}}}
+\end{metasection}
 
 \end{metasection}
 
